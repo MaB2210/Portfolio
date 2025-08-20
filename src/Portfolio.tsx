@@ -1,13 +1,19 @@
 import { motion } from "framer-motion";
 import { Github, Linkedin, Mail, Phone, ArrowRight, Download } from "lucide-react";
+import { ReactNode } from "react";
+
+interface CardProps {
+  className?: string;
+  children: ReactNode;
+}
 
 // Simple Card component (no external UI lib)
-function Card({ className = "", children }) {
+function Card({ className = "", children }:CardProps) {
   return (
     <div className={`rounded-2xl bg-gray-800/80 border border-gray-700 shadow-sm ${className}`}>{children}</div>
   );
 }
-function CardContent({ className = "", children }) {
+function CardContent({ className = "", children }:CardProps) {
   return <div className={`p-6 ${className}`}>{children}</div>;
 }
 
