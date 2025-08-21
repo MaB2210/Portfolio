@@ -24,7 +24,7 @@ export default function Nav() {
           <a href="mailto:connect.mannbhatt@gmail.com" className="hover:text-white" aria-label="Email"><Mail size={20} /></a>
           <a href="tel:+19057816272" className="hover:text-white" aria-label="Phone"><Phone size={20} /></a>
           <a href="https://github.com/MaB2210" target="_blank" rel="noreferrer noopener" className="hover:text-white" aria-label="GitHub"><Github size={20} /></a>
-          <a href="https://linkedin.com/in/mann-bhatt" target="_blank" rel="noreferrer noopener" className="hover:text-white" aria-label="LinkedIn"><Linkedin size={20} /></a>
+          <a href="https://linkedin.com/in/mannbhatt" target="_blank" rel="noreferrer noopener" className="hover:text-white" aria-label="LinkedIn"><Linkedin size={20} /></a>
         </div>
       </div>
     </header>
